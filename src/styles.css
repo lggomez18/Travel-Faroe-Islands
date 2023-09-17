@@ -4,3 +4,25 @@
     box-sizing: border-box;
     font-family: Arial, Helvetica, sans-serif;
 }
+
+body{
+    background-image: url(./Back.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    backdrop-filter: blur(3px);
+    
+}
+
+.glass{
+    width:930px;
+    height: 520px;
+    box-shadow: 0 0 8px rgba(255, 255, 255,1 );
+    background-image: url(./pexels-mizzu-cho-7031010.jpg);
+    background-position: center;
+    background-size: cover;
+
+}
