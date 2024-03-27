@@ -14,15 +14,50 @@
     font-style: normal;
   }
 
+
+body{
+  font-family: "Montserrat", sans-serif;
+  font-weight:100;
+  font-style: normal;
+}
+
+.container{
+  max-width:1400px;
+  margin: 0 auto;
+
+}
+header{
+  background-image: url('../images/Header2image.jpg');
+  background-repeat: none;
+  background-size: cover;
+  color:#5c715e;
+  text-align: center;
+}
+
+header 
 h1,
 h2{
   font-family: "Cedarville Cursive", cursive;
   font-weight: 400;
   font-style: normal;
+  font-size: 2.5em;
+  line-height:60px;
+  letter-spacing:4px;
+  word-spacing: 6px;
 }
 
+header 
 h3{
   font-family: "Montserrat", sans-serif;
     font-weight:500;
-    font-size: 18px;
+    font-size: 1.5em;
+}
+
+header a{
+  font-family: "Montserrat", sans-serif;
+  font-weight:500;
+  font-size:1.5em;
+text-align: center;
+
+
 }
