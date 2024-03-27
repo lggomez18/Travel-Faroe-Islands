@@ -1,1 +1,1 @@
-# Travel-Texas-Blog
+# Travel-Faroe-Islands
