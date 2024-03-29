@@ -31,19 +31,21 @@ header{
   background-repeat: none;
   background-size: cover;
   color:#5c715e;
-  text-align: center;
+  padding: 200px 0;
+
 }
 
 header 
 h1,
 h2{
   font-family: "Cedarville Cursive", cursive;
-  font-weight: 400;
+  font-weight: 500;
   font-style: normal;
-  font-size: 2.5em;
-  line-height:60px;
-  letter-spacing:4px;
-  word-spacing: 6px;
+  font-size: 3em;
+  line-height:1.5;
+  color:#eac100;
+  /*letter-spacing:4px;*/
+  /*word-spacing: 6px;*/
 }
 
 header 
@@ -51,13 +53,19 @@ h3{
   font-family: "Montserrat", sans-serif;
     font-weight:500;
     font-size: 1.5em;
+    letter-spacing: 3px;
 }
+
 
 header a{
   font-family: "Montserrat", sans-serif;
   font-weight:500;
   font-size:1.5em;
-text-align: center;
-
-
+  line-height:1;
+  letter-spacing: 3px;
+  text-align: center;
+  text-decoration: none;
+  color:#4f7097;
+  padding: 15px 32px;
+  display: inline-block;
 }
