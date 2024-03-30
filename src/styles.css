@@ -75,7 +75,17 @@ header a{
   display: inline-block;
 }
 
-@media (max-width:900px){
+footer {
+  background-image: linear-gradient(
+    rgba(39, 32, 68, 0.9),
+    rgba(39, 32, 68, 0.9) )
+    url('../images/footer3.jpg');
+  color:#900048;
+  font-size:0.8em;
+
+
+}
+@media (max-width:960px){
   header{
     padding: 60px 0;
   }
