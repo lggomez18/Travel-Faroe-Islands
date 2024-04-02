@@ -26,34 +26,25 @@ body{
 .container{
   max-width:1400px;
   margin: 0 auto;
+}
 
+.grid{
+  display: grid;
+  grid-template-columns: 1fr 2fr 2fr;
+  grid-gap:60px;
+
+}
+
+.grid-2-columns{
+  grid-template-columns: 1fr 1fr;
 }
 
 section{
   max-width: 1200px;
   margin: 0 auto;
   padding:100px 0;
+  text-align: justify;
 }
-
-
-main h2{
-  font-weight: 700;
-  font-size: 1.5em;
-  line-height:1.5;
-  letter-spacing: 5px;
-
-}
-
-main h3{
-  font-weight: 700;
-  font-size: 1em;
-  line-height:1.5;
-}
-
-main p{
-
-}
-
 
 header{
   background-image: url('../images/Header2image.jpg');
@@ -104,16 +95,27 @@ header a{
   display: inline-block;
 }
 
-.grid{
-  display: grid;
-  grid-template-columns: 1fr 2fr 2fr;
-  grid-gap:60px;
+
+
+main h2{
+  font-weight: 700;
+  font-size: 1.5em;
+  line-height:1.5;
+  letter-spacing: 5px;
 
 }
 
-.grid-2-columns{
-  grid-template-columns: 1fr 1fr;
+main h3{
+  font-weight: 700;
+  font-size: 1em;
+  line-height:1.5;
 }
+
+main p{
+
+}
+
+
 
 footer {
   /*background-color:rgba(79, 112, 151, 0.6);*/
