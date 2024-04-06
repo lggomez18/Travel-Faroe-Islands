@@ -39,6 +39,10 @@ body{
   grid-template-columns: 1fr 1fr;
 }
 
+.grid-3-columns{
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
 .grid-3-columns-with-first-narrow{
   grid-template-columns: 1fr 2fr 2fr;
 
@@ -52,7 +56,19 @@ section{
 
 section.secondary{
   background: #f8f8f8;
+  text-align: center;
 
+}
+
+.card{
+  background-color: white;
+}
+
+.card h4{
+  font-family: "Cedarville Cursive", cursive;
+  font-size:1.5em;
+  letter-spacing:2px;
+  background-color:whitesmoke;
 }
 header{
   background-image: url('../images/Header2image.jpg');
