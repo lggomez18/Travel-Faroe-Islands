@@ -59,6 +59,8 @@ section.secondary{
   text-align: center;
 }
 
+
+
 .card{
   background-color: white;
 }
@@ -69,6 +71,12 @@ section.secondary{
   letter-spacing:2px;
   text-decoration: underline;
   color:#606470;
+}
+
+.card p{
+  text-align:justify;
+  margin:30px;
+  line-height:1.5;
 }
 
 header{
