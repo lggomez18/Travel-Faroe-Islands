@@ -44,12 +44,16 @@ body{
 
 }
 section{
-  max-width: 1200px;
+  max-width:100%;
   margin: 0 auto;
   padding:100px 0;
   text-align: justify;
 }
 
+section.secondary{
+  background: #f8f8f8;
+
+}
 header{
   background-image: url('../images/Header2image.jpg');
   background-repeat:no-repeat;
