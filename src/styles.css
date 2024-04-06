@@ -117,7 +117,9 @@ main h3{
   margin: 2;
 }
 
-
+.img-responsive{
+  max-width: 100%;
+}
 
 
 footer {
