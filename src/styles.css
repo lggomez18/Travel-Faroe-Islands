@@ -73,6 +73,12 @@ section.secondary{
   color:#606470;
 }
 
+.card h5{
+  font-weight: 700;
+  font-size: 1em;
+  line-height: 1.5;
+  color:#272044;
+}
 .card p{
   text-align:justify;
   margin:30px;
