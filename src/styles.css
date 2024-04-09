@@ -63,13 +63,13 @@ section.secondary{
 
 .card{
   background-color: white;
+  margin: 30px 0;
 }
 
 .card h4{
   font-family: "Cedarville Cursive", cursive;
-  font-size:1.5em;
+  font-size:2em;
   letter-spacing:2px;
-  text-decoration: underline;
   color:#606470;
 }
 
@@ -193,12 +193,14 @@ footer a{
   display:block;
   color:#4f7097;
   background-color:#e7eaf6;
-  font-size: 14px;
-  font-weight: 700;
-  line-height: 21px;
+  font-size:1em;
+  font-weight: 500;
+  line-height:18px;
   text-align: center;
-  letter-spacing: 3px;
+  letter-spacing:2.5px;
   padding:16px;
+  margin:20px 75px;
+  border-radius: 20px;
   text-decoration:none;
 }
 
