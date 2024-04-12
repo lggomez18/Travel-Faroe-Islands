@@ -21,7 +21,6 @@ body{
   font-style: normal;
   letter-spacing:1px;
   word-spacing: 2px;
-  background:grey;
 }
 
 .container{
@@ -39,6 +38,7 @@ body{
 
 .grid-2-columns{
   grid-template-columns: 1fr 1fr;
+
 }
 
 .grid-3-columns{
