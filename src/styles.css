@@ -21,11 +21,13 @@ body{
   font-style: normal;
   letter-spacing:1px;
   word-spacing: 2px;
+  background:grey;
 }
 
 .container{
   max-width:1400px;
   margin: 0 auto;
+
 }
 
 .grid{
@@ -96,12 +98,15 @@ header{
   background-size: cover;
   color:#5c715e;
   text-align: center;
-  padding: 200px 0;
+  padding: 260px 0;
   width: 100%;
-  aspect-ratio: 21/9;
-
+  height: 50%;
 }
 
+.headerimg{
+  aspect-ratio:3/2;
+
+}
 header 
 h1,
 h2{
@@ -214,12 +219,14 @@ footer a{
 /*RESPONSIVE WEBSITE*/
 @media (max-width:960px){
   header{
-    padding: 60px 0;
+    padding:60px 0;
   }
 
   header h1, h2{
     color:#cb9bba;
     font-size: 1.5em;
+    line-height: 1;
+    margin: 30px 0;
   }
 
   header h3{
