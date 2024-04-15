@@ -261,6 +261,39 @@ footer a{
 }
 
 
+/*accessibility*/
+.dark {
+  background:#38598b;
+  color:aliceblue;
+}
+
+.dark .container {
+background: rgba(162,168,211, 0.4);
+}
+
+.dark a{
+  color:black;
+
+}
+
+.dark p{
+  color: #272044;
+}
+
+.dark .card{
+  background-color:whitesmoke;
+  opacity:0.7;
+  
+}
+
+.contrast{
+display: block;
+width:75px;
+height: 35px;
+margin: auto;
+padding: 10 0px;
+}
+
 /*RESPONSIVE WEBSITE*/
 @media (max-width:960px){
   header{
