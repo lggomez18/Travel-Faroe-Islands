@@ -265,6 +265,14 @@ footer a{
     line-height: 0.5;
   }
 
+  .card-header img{
+    display: none;
+  }
+
+  .card-header iframe{
+    aspect-ratio:16/9;
+  }
+
   .grid{
     grid-template-columns: 1fr;
     grid-gap: 22px;
